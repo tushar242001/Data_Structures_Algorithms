@@ -1,4 +1,4 @@
-Implementation of MergeSort using C++ .
+//Implementation of MergeSort using C++ .
 Code : 
 #include<iostream>
 using namespace std;
