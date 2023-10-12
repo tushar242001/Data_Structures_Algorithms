@@ -1,6 +1,6 @@
-Implementation of QuickSort using C++ .
+//Implementation of QuickSort using C++ .
 
-Code : 
+//Code : 
 
 #include <iostream>
 using namespace std;
