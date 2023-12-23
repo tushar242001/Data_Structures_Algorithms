@@ -11,7 +11,7 @@ push(g) – Adds the element ‘g’ at the top of the stack – Time Complexity
 pop() – Deletes the most recent entered element of the stack – Time Complexity : O(1)     */
 
 
-// Implementation of Stack using Area .
+// Implementation of Stack using Array .
 
 #include <iostream>
 # define MAX 1000
@@ -95,4 +95,11 @@ int main()
     return 0;
 }
 
+// Implementation of Stack using LinkedList .
+
+
+
+
+/*  Uses of Stack 
+1) 
 
