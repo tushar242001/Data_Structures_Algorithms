@@ -95,11 +95,119 @@ int main()
     return 0;
 }
 
+**********************************************************************************************************************
 // Implementation of Stack using LinkedList .
 
+#include <iostream>
+using namespace std;
 
+class ListNode{
+    public:
+    int data;
+    ListNode* next;
+};
 
+ListNode *p,*h;
+void create(int data)
+{
+    h=(ListNode*)malloc(sizeof(ListNode));
+    h->data=data;
+    h->next=NULL;
+}
+void push(int data)
+{
+    if(h==NULL)
+    {
+        create(data);
+    }
+    else{
+        p=(ListNode*)malloc(sizeof(ListNode));
+        p->data=data;
+        p->next=h;
+        h=p;
+    }
+}
+void pop()
+{
+    if(h==NULL)
+    {
+        cout<<"Stack is Empty"<<endl;
+    }
+    else
+    {
+        p=h;
+        h=h->next;
+        cout<<"Element :"<<p->data<<"is removed from stack"<<endl;
+        free(p);
+       
+    }
+}
+
+void display()
+{
+    if(h==NULL)
+    {
+        cout<<"Stack is Empty"<<endl;
+    }
+    else
+    {
+        p=h;
+        while(p!=NULL)
+        {
+            cout<<"Element : "<<p->data<<endl;
+            p=p->next;
+        }
+    }
+}
+
+void peek()
+{
+    if(h==NULL)
+    {
+        cout<<"Stack is Empty"<<endl;
+    }
+    else
+    {
+        cout<<"Top Element of Stack : "<<h->data<<endl;
+    }
+}
+int main()
+{
+    push(10);
+    push(20);
+    push(30);
+    push(40);
+    cout<<"Elements: "<<endl;
+    display();
+    cout<<"\n\n\n";
+    pop() ;
+    cout<<"\n\n\n";
+    display();
+    cout<<"\n\n\n";
+    peek();
+    display();
+    cout<<"\n\n\n";
+}
 
 /*  Uses of Stack 
-1) 
 
+1) Backtraking
+2) Expression Evaluation 
+3) Parenthesis Checking
+4) Recusrion 
+5) Reverse a Data 
+6) Undo Redo actions 
+7) Processing Function Calls 
+
+*/
+
+*/Advantages of Stack 
+1) Efficient memory utilization : Stack uses a contiguous block of memory, 
+                                 making it more efficient in memory utilization as compared to other data structures.
+2) Fast access time: Stack data structure provides fast access time 
+                     for adding and removing elements as the elements are added and removed from the top of the stack.
+
+Disadvantages of Stack 
+1) No random access .
+       
+*/
