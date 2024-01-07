@@ -1,5 +1,26 @@
-// Implementation of LinkedList in C++ .
+/* 
+LinkedList : A linked list is a linear data structure, in which the elements are not stored at contiguous memory locations. 
+             The elements in a linked list are linked using pointers .
+             
+Types of LinkedList 
+ 1) Singly Linked List
+ 2) Doubly Linked List
+ 3) Circular Linked List
+ 4) Circular Doubly Linked List
+ 5) Header Linked List
 
+ Applications of LinkedList 
+ 
+ 1) Polynomial Manipulation representation
+ 2) Addition of long positive integers
+ 3) Representation of sparse matrices
+ 4) Addition of long positive integers
+ 5) Symbol table creation
+ 6) Mailing list
+
+*/
+
+// Implementation of Singly LinkedList in C++ . 
 #include <iostream>
 using namespace std;
 
@@ -205,3 +226,10 @@ int main()
 //    print();
 
 }
+
+// Implementation of Doubly LinkedList in C++ .
+
+
+
+
+
