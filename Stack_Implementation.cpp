@@ -199,9 +199,9 @@ int main()
 6) Undo Redo actions 
 7) Processing Function Calls 
 
-*/
 
-*/Advantages of Stack 
+
+Advantages of Stack 
 1) Efficient memory utilization : Stack uses a contiguous block of memory, 
                                  making it more efficient in memory utilization as compared to other data structures.
 2) Fast access time: Stack data structure provides fast access time 
