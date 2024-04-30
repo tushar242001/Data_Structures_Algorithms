@@ -20,13 +20,13 @@ int partition(int a[],int start,int end)
     swap(a[start],a[j]);
     return j;
 }
-void quick(int arr[],int start ,int end)
+void quicksort(int arr[],int start ,int end)
 {
     if(start<end)
     {
         int p=partition(arr, start, end);
-        quick(arr,start,p-1);
-        quick(arr,p+1,end);
+        quicksort(arr,start,p-1);
+        quicksort(arr,p+1,end);
     }
     
 }
@@ -36,7 +36,7 @@ int main()
 {
     
     int arr[10]={12 ,14 ,24,5,30 ,40 ,10 ,50 ,7,69 };
-    quick(arr,0,9);
+    quicksort(arr,0,9);
     cout<<"After Sorting Array: ";
     for(int i=0;i<10;i++)
     {
