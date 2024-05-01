@@ -3,9 +3,9 @@
 
 #include <iostream>
 using namespace std;
-void insertionSort(int a,int arr[])
+void insertionSort(int n,int arr[])
 {
-    for(int i=1;i<a;i++)
+    for(int i=1;i<n;i++)
     {
         int j=i-1;
         int x=arr[i];
@@ -16,7 +16,7 @@ void insertionSort(int a,int arr[])
         }
         arr[j+1]=x;
     }
-    for(int k=0;k<a;k++)
+    for(int k=0;k<n;k++)
     {
         cout<<arr[k]<<" ";
     }
