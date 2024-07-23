@@ -1,0 +1,78 @@
+Advanced data structures are designed to handle complex data efficiently, offering enhanced performance for specific types of operations and applications. Here are some of the most commonly used advanced data structures:
+
+1. Heap : A heap is a specialized tree-based data structure that satisfies the heap property:
+          i) Max-Heap: The value of each node is greater than or equal to the values of its children.
+         ii) Min-Heap: The value of each node is less than or equal to the values of its children.
+         * Operations: Insertion, Deletion, Peek (finding max or min), Heapify.
+         * Applications: Priority queues, heap sort, order statistics.
+
+2. Trie (Prefix Tree) : A trie is a tree-like data structure that stores a dynamic set of strings, where each node represents a single character of a string.
+         * Operations: Insertion, Deletion, Search, Prefix search.
+         * Applications: Autocomplete, spell checking, IP routing, and storing a predictive text.
+
+3. Segment Tree : A segment tree is a binary tree used for storing intervals or segments. It allows querying which segments overlap with a given point or range efficiently.
+         * Operations: Range query, Update.
+         * Applications: Range sum queries, range minimum/maximum queries, interval-related problems.
+
+4. Fenwick Tree (Binary Indexed Tree) : A Fenwick tree is used to efficiently update elements and calculate prefix sums in a table of numbers.
+         * Operations: Point update, Prefix sum query.
+         * Applications: Frequency tables, cumulative frequency tables.
+
+5. Suffix Tree : A suffix tree is a compressed trie containing all the suffixes of a given text.
+         * Operations: Substring search, Longest repeated substring, Longest common substring.
+         * Applications: Text processing, pattern matching.
+
+6. Disjoint Set (Union-Find) : A disjoint set is a data structure that keeps track of a partition of a set into disjoint (non-overlapping) subsets.
+         * Operations: Find, Union.
+         * Applications: Network connectivity, Kruskal’s algorithm for Minimum Spanning Tree, image processing.
+
+7. AVL Tree : An AVL tree is a self-balancing binary search tree where the difference between heights of left and right subtrees cannot be more than one for all nodes.
+         * Operations: Insertion, Deletion, Search, Balance factor checking and rebalancing.
+         * Applications: Maintaining sorted data, databases, and memory allocation.
+
+8. Red-Black Tree : A red-black tree is a balanced binary search tree with an extra bit of storage per node: its color, 
+                   which can be either red or black. It maintains balance through specific rules related to the colors of nodes.
+         * Operations: Insertion, Deletion, Search, Rebalancing through rotations and recoloring.
+         * Applications: Associative arrays, database indexing.
+
+9. B-Tree : A B-tree is a self-balancing tree data structure that maintains sorted data and allows searches, sequential access, 
+            insertions, and deletions in logarithmic time. It is optimized for systems that read and write large blocks of data.
+         * Operations: Insertion, Deletion, Search.
+         * Applications: Databases, file systems.
+
+10. Skip List : A skip list is a data structure that allows fast search within an ordered sequence of elements. 
+                It extends the concept of a linked list with additional forward pointers to skip over multiple elements.
+         * Operations: Insertion, Deletion, Search.
+         * Applications: Ordered data structures, fast search applications, concurrent data structures.
+
+11. Bloom Filter : A bloom filter is a probabilistic data structure that tests whether an element is a member of a set. 
+                   False positives are possible, but false negatives are not.
+         * Operations: Insertion, Query.
+         * Applications: Caches, databases, network filtering.
+
+12. Treap : A treap is a randomized binary search tree where each node has a priority in addition to its key, and the tree maintains the heap property with respect to priorities.
+         * Operations: Insertion, Deletion, Search.
+         * Applications: Randomized data structures, load balancing.
+
+13. KD-Tree (K-Dimensional Tree) : A KD-tree is a space-partitioning data structure for organizing points in a k-dimensional space.
+        * Operations: Insertion, Deletion, Range search, Nearest neighbor search.
+        * Applications: Multidimensional search, computer graphics, and machine learning.
+
+14. Quad Tree : A quad tree is a tree data structure in which each internal node has exactly four children. 
+               It is used to partition a two-dimensional space by recursively subdividing it into four quadrants or regions.
+         * Operations: Insertion, Deletion, Range search.
+         * Applications: Spatial indexing, image compression.
+
+15. Octree : An octree is a tree data structure in which each internal node has exactly eight children. 
+          It is used to partition a three-dimensional space by recursively subdividing it into eight octants.
+        * Operations: Insertion, Deletion, Range search.
+        * Applications: 3D computer graphics, spatial indexing.
+
+
+These advanced data structures are crucial for solving complex problems efficiently and are widely used in various fields including computer science, data analysis, networking, and more.
+
+
+
+
+
+
