@@ -1,0 +1,83 @@
+
+1) Divide and Conquer
+    Divide and Conquer is a technique that breaks a problem into smaller subproblems, solves each subproblem recursively, and then combines the solutions to solve the original problem.
+Examples:
+    Merge Sort: Divides the array into halves, sorts each half, and merges the sorted halves.
+    Quick Sort: Divides the array into partitions around a pivot, then sorts the partitions.
+    Binary Search: Repeatedly divides a sorted array in half to find a target value.
+
+2) Dynamic Programming (DP)
+    Dynamic Programming solves problems by breaking them down into simpler subproblems and storing the results of these subproblems to avoid redundant computations.
+Examples:
+    Fibonacci Sequence: Storing previously calculated Fibonacci numbers to avoid recomputation.
+    Knapsack Problem: Finding the maximum value subset of items that can be included in a knapsack.
+    Longest Common Subsequence: Finding the longest subsequence common to two sequences.
+    
+3) Greedy Algorithms
+    Greedy algorithms make a series of choices, each of which looks best at the moment, aiming to find a global optimum.
+Examples:
+    Huffman Coding: Building a minimum-redundancy prefix code.
+    Dijkstra's Algorithm: Finding the shortest path from a source to all vertices in a weighted graph.
+    Prim’s Algorithm: Finding the Minimum Spanning Tree (MST) of a graph.
+ 
+4) Backtracking
+    Backtracking systematically searches for a solution by trying partial solutions and then abandoning them if they do not lead to a complete solution.
+Examples:
+    N-Queens Problem: Placing N queens on an N×N chessboard so that no two queens threaten each other.
+    Sudoku Solver: Filling in Sudoku grids by trying each possible number.
+    Hamiltonian Path: Finding a path in a graph that visits each vertex exactly once.
+
+5) Branch and Bound
+    Branch and Bound is an algorithm design paradigm for discrete and combinatorial optimization problems. It systematically enumerates candidate solutions by branching and uses bounds to prune parts of the search space.
+Examples:
+    Traveling Salesman Problem (TSP): Finding the shortest possible route that visits each city and returns to the origin city.
+    Knapsack Problem: Similar to dynamic programming but using bounding techniques to prune the search space.
+    
+6) Heuristic and Metaheuristic Algorithms
+    Heuristic algorithms find good-enough solutions for complex optimization problems, often within a reasonable time frame. Metaheuristic algorithms are higher-level procedures designed to guide heuristic algorithms.
+Examples:
+    Simulated Annealing: Searching for a global minimum of a function by exploring the solution space.
+    Genetic Algorithms: Using principles of natural selection to find approximate solutions to optimization and search problems.
+    Ant Colony Optimization: Using the behavior of ants to find optimal paths through graphs.
+
+7) Graph Algorithms
+    Graph algorithms solve problems related to graph theory, such as searching, finding paths, and detecting cycles.
+Examples:
+    Breadth-First Search (BFS): Exploring all nodes at the present depth level before moving on to nodes at the next depth level.
+    Depth-First Search (DFS): Exploring as far as possible along each branch before backtracking.
+    Kruskal's Algorithm: Finding the Minimum Spanning Tree of a graph by sorting edges.
+
+8) Machine Learning Algorithms
+     Machine learning algorithms are used to create models that can make predictions or decisions based on data.
+
+Examples:
+    Linear Regression: Modeling the relationship between a dependent variable and one or more independent variables.
+    Decision Trees: Modeling decisions and their possible consequences.
+    Neural Networks: Using layers of interconnected nodes to model complex patterns in data.
+
+9) Numerical Methods
+     Numerical methods solve mathematical problems numerically rather than analytically.
+
+Examples:
+    Newton-Raphson Method: Finding successively better approximations to the roots (or zeroes) of a real-valued function.
+    Gauss-Seidel Method: Iteratively solving a system of linear equations.
+    Runge-Kutta Methods: Solving ordinary differential equations.
+
+
+10) Data Structures
+      Using appropriate data structures can greatly simplify problem-solving.
+Examples:
+    Hash Tables: Providing efficient key-value pair management.
+    Priority Queues: Managing a set of elements with priorities, often implemented with heaps.
+    Graphs: Representing relationships between pairs of objects.
+
+
+11) Parallel and Distributed Computing
+       Parallel and distributed computing techniques involve solving problems by dividing them into subproblems that can be solved concurrently.
+Examples:
+    MapReduce: Processing large data sets with a distributed algorithm on a cluster.
+    MPI (Message Passing Interface): Communicating between nodes in a distributed system.
+
+
+Each of these methods and algorithms has its own strengths and is suited to particular types of problems. 
+Effective problem-solving often involves understanding the nature of the problem and choosing the right approach or combination of approaches to tackle it.
