@@ -227,7 +227,6 @@ int main()
 
 }
 
-// Implementation of Doubly LinkedList in C++ .
 
 
 
